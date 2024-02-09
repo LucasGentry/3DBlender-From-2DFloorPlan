@@ -54,10 +54,10 @@ This part contains information about how to setup and execute the example script
 Firstly you need to install a suitable [Docker](https://www.docker.com/) environment on your device.
 This project contains a `DockerFile` which uses the `Ubuntu 18.04` image so make sure your docker environment is set to linux containers.
 
-This project is linked to [Docker Hub](https://hub.docker.com/r/softgiant5860/floorplan-to-blender) which means a maintained and prebuilt container can be pulled directly by running:
+This project is linked to [Docker Hub](https://hub.docker.com/r/LucasGentry/floorplan-to-blender) which means a maintained and prebuilt container can be pulled directly by running:
 
 ```bash
- docker pull softgiant5860/floorplan-to-blender
+ docker pull LucasGentry/floorplan-to-blender
 ```
 
 The dockerfile is divided into three modes. The script mode where the example script can be tested. 
@@ -93,7 +93,7 @@ These are the programs that are required to run this implementation.
 
 Clone or download this repo:
 ```git
-git clone https://github.com/softgiant5860/2DFloorplanToBlender3d.git
+git clone https://github.com/LucasGentry/2DFloorplanToBlender3d.git
 ````
 
 With a suitable `blender`, `python` and `python pip` installed you can have `Python3 pip` install all required  packages by running:
@@ -151,7 +151,7 @@ The server implementation comes with an automatically generated [Swagger API](ht
 ![swagger](Images/Demos/swaggerdemo.gif)
 
 ## Usages in other applications
-If you are interested in code for these demos they are accessable in another repository [here](https://github.com/softgiant5860/ARFloorplanDemo).
+If you are interested in code for these demos they are accessable in another repository [here](https://github.com/LucasGentry/ARFloorplanDemo).
 
 ### AR foundation place floorplans in world
 
@@ -199,4 +199,4 @@ These are some known and relevant issues with the current implementation:
 # License
 [GNU GENERAL PUBLIC LICENSE](license) Version 3.1, 13 10 2019
 
-COPYRIGHT @ softgiant5860 2024
+COPYRIGHT @ LucasGentry 2024
