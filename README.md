@@ -93,7 +93,8 @@ These are the programs that are required to run this implementation.
 
 Clone or download this repo:
 ```git
-git clone https://github.com/LucasGentry/2DFloorplanToBlender3d.git
+git clone https://github.com/LucasGentry/Breadcrumbs3DBlender-From-2DFloorPlan
+.git
 ````
 
 With a suitable `blender`, `python` and `python pip` installed you can have `Python3 pip` install all required  packages by running:
