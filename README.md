@@ -54,10 +54,9 @@ This part contains information about how to setup and execute the example script
 Firstly you need to install a suitable [Docker](https://www.docker.com/) environment on your device.
 This project contains a `DockerFile` which uses the `Ubuntu 18.04` image so make sure your docker environment is set to linux containers.
 
-This project is linked to [Docker Hub](https://hub.docker.com/r/LucasGentry/floorplan-to-blender) which means a maintained and prebuilt container can be pulled directly by running:
-
 ```bash
- docker pull LucasGentry/floorplan-to-blender
+ docker pull LucasGentry/3DBlender-From-2DFloorPlan
+
 ```
 
 The dockerfile is divided into three modes. The script mode where the example script can be tested. 
@@ -93,7 +92,7 @@ These are the programs that are required to run this implementation.
 
 Clone or download this repo:
 ```git
-git clone https://github.com/LucasGentry/Breadcrumbs3DBlender-From-2DFloorPlan
+git clone https://github.com/LucasGentry/3DBlender-From-2DFloorPlan
 .git
 ````
 
