@@ -197,5 +197,5 @@ These are some known and relevant issues with the current implementation:
 * Required programs and libraries might change in future versions, this might require some changes in this implementation for it to work. If you insist on not using the versions specified in Dockerfile, a coding effort might be required.
 
 # License
-[GNU GENERAL PUBLIC LICENSE](license) Version 3.1, 13 Jan 2024
+[GNU GENERAL PUBLIC LICENSE](license) Version 3, 29 June 2007
 
